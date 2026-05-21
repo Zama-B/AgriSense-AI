@@ -1,231 +1,411 @@
 # 🌱 AgriSense-AI
 
-> AI-powered precision agriculture platform addressing South Africa's water scarcity crisis through intelligent resource management and predictive analytics.
+> **AI-Powered Agricultural Intelligence for South Africa**
+>
+> Addressing the water scarcity crisis through intelligent crop diagnosis, livestock monitoring, and water-conscious farming solutions.
 
-## 📋 Table of Contents
+---
+
+## 📖 Table of Contents
 
 - [Overview](#overview)
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [The Problem](#-the-problem)
+- [Our Solution](#-our-solution)
+- [Core Features](#-core-features)
+- [Tech Stack](#-tech-stack)
+- [Architecture](#-architecture)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Project Structure](#-project-structure)
+- [Contributing](#-contributing)
+- [Future Roadmap](#-future-roadmap)
+- [Team](#-team)
+- [License](#-license)
+- [Contact & Support](#-contact--support)
+
+---
 
 ## 🎯 Overview
 
-**AgriSense-AI** is an intelligent web application designed to revolutionize farming practices in South Africa by optimizing water usage, improving crop yields, and supporting sustainable agricultural development. The platform leverages artificial intelligence and machine learning to provide data-driven recommendations for:
+**AgriSense-AI** is a free, mobile-first web application designed to revolutionize farming practices across South Africa by combining AI-powered image diagnosis, intelligent agricultural guidance, and water-first recommendations into one accessible platform.
 
-- **Urban Farmers**: Precision irrigation solutions for Cape Town, Johannesburg, and Durban
-- **Rural Farmers**: Crop optimization and resource management guidance
-- **Commercial Farmers**: Large-scale agricultural analytics and predictive modeling
+The platform empowers farmers—from urban smallholders in townships to large-scale commercial operations—with actionable AI insights to diagnose crop and livestock problems, optimize irrigation, and grow more with less while protecting their livelihoods and the environment.
 
-With South Africa facing an ongoing water scarcity crisis, AgriSense-AI empowers farmers with actionable insights to grow more with less—protecting both their livelihoods and the environment.
+### Target Users
 
-## ✨ Features
+| User Type | Use Case |
+|-----------|----------|
+| **Urban Smallholders** | Backyard farming, township agriculture, water-efficient crop production |
+| **Rural Farmers** | Crop optimization, livestock monitoring, resource management guidance |
+| **Commercial Farmers** | Large-scale analytics, irrigation optimization, sustainability practices |
+| **Agricultural NGOs** | Scalable AI-powered extension services for farming communities |
 
-### 🤖 AI-Powered Analytics
-- Real-time crop health monitoring through satellite and sensor data integration
-- Predictive weather analytics and drought forecasting
-- Intelligent irrigation scheduling based on soil moisture and rainfall predictions
+---
 
-### 💧 Water Management
-- Precision irrigation recommendations to reduce water waste
-- Soil moisture tracking and optimization
-- Water usage analytics and conservation insights
+## 🌍 The Problem
 
-### 📊 Data Visualization Dashboard
-- Intuitive real-time dashboards with crop performance metrics
-- Historical trend analysis and pattern recognition
-- Region-specific agricultural insights
+South Africa faces a deepening structural water crisis, with agriculture consuming a significant portion of the country's freshwater resources. Key challenges include:
 
-### 🌍 Location-Based Support
-- Tailored recommendations for urban, rural, and commercial farming contexts
-- Regional climate and soil data integration
-- Localized market and resource information
+- **Limited Access**: Many farmers lack immediate access to agronomic expertise
+- **Water Wastage**: Inefficient irrigation practices waste critical resources
+- **Delayed Diagnosis**: Crop and livestock problems go unidentified, causing losses
+- **Infrastructure Issues**: Load-shedding affects irrigation systems and farm operations
+- **High Costs**: Agricultural support services remain inaccessible to smallholders
+- **Knowledge Gaps**: Lack of accessible, AI-powered tools tailored to South African agriculture
 
-### 📱 Accessibility
-- Responsive web design for desktop and mobile devices
-- User-friendly interface for farmers with varying technical expertise
-- Multilingual support options
+---
 
-## 📸 Screenshots
+## 💡 Our Solution
 
-### Dashboard Overview
-![Dashboard Screenshot]
-<!-- Add screenshot here -->
+AgriSense-AI combines cutting-edge AI technology with water-conscious agricultural practices to deliver:
 
-### Irrigation Recommendations
-![Irrigation Analytics]
-<!-- Add screenshot here -->
+✅ **AI Photo Diagnosis** - Instant analysis of crop, livestock, soil, and irrigation problems  
+✅ **Intelligent Advisor Chat** - Context-aware farming recommendations  
+✅ **Water-First Intelligence** - Every recommendation prioritizes conservation  
+✅ **Sample Diagnoses** - One-tap demonstration for instant testing  
+✅ **Mobile-First Design** - Works seamlessly in rural and urban environments  
 
-### Crop Health Monitoring
-![Crop Monitoring]
-<!-- Add screenshot here -->
+---
 
-### Water Usage Analytics
-![Water Analytics]
-<!-- Add screenshot here -->
+## ✨ Core Features
 
-## 🛠️ Tech Stack
+### 📸 AI Photo Diagnosis
 
-### Frontend
-- **React** - UI component library
-- **Next.js** - React framework for production
-- **Tailwind CSS** - Utility-first CSS framework
-- **Chart.js / Recharts** - Data visualization
+Upload images to receive instant AI-generated diagnoses including:
 
-### Backend
-- **Node.js** - Runtime environment
-- **Express.js** - Web application framework
-- **Python** - AI/ML model development
-- **TensorFlow / scikit-learn** - Machine learning libraries
+- **Crop Health**: Disease detection, water stress analysis, nutrient deficiency identification
+- **Livestock Assessment**: Health indicators, weight analysis, disease recognition
+- **Soil Evaluation**: Condition assessment, moisture analysis, fertility insights
+- **Irrigation Diagnostics**: System leak detection, efficiency analysis, water conservation opportunities
 
-### Database & Storage
-- **PostgreSQL** - Relational database
-- **MongoDB** - NoSQL database
-- **AWS S3 / Firebase** - Cloud storage
+### 🤖 AI Advisor Chat
 
-### APIs & Integrations
-- Weather API integration
-- Satellite imagery providers
-- IoT sensor data streams
+Interactive assistant providing:
 
-### DevOps & Deployment
-- **Docker** - Containerization
-- **GitHub Actions** - CI/CD pipeline
-- **AWS / GCP / Azure** - Cloud hosting
+- Contextual farming recommendations
+- Irrigation and watering guidance
+- Sustainable and water-conscious farming advice
+- South Africa-specific agricultural insights
+- Real-time problem-solving support
+
+### 💧 Water-First Intelligence
+
+Every recommendation prioritizes:
+
+- Water conservation strategies
+- Efficient irrigation scheduling
+- Drought-resilient farming methods
+- Sustainable agricultural practices
+- Cost-effective resource management
+
+### ⚡ One-Tap Sample Diagnoses
+
+Preloaded agricultural samples including:
+
+- Diseased maize leaves
+- Underweight livestock
+- Wilted vegetables
+- Leaking irrigation systems
+- Cracked dry soil
+- Tomato blight and fungal diseases
+
+Perfect for users to test functionality and for project evaluators to demonstrate capabilities instantly.
+
+### 📱 Mobile-First Experience
+
+Optimized for:
+
+- Rural and urban connectivity
+- Low-data usage scenarios
+- Smartphone accessibility
+- Fast interactions
+- Responsive design across all devices
+
+---
+
+## 🧠 Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| **Frontend** | React 19, TanStack Start, Vite 7, Tailwind CSS v4 |
+| **Backend** | Supabase Edge Functions, Lovable Cloud |
+| **AI/ML** | Google Gemini 2.5 Flash, Lovable AI Gateway |
+| **Database** | Supabase PostgreSQL (planned), Row-Level Security (RLS) |
+| **Storage** | Cloud Storage (Firebase/AWS S3) |
+| **Development** | GitHub, JavaScript, Markdown, Vite |
+| **DevOps** | Docker, GitHub Actions, Cloud Deployment |
+
+---
+
+## 🔄 Architecture
+
+### System Workflow
+
+```
+User uploads image
+    ↓
+AI Processing (Gemini 2.5 Flash)
+    ↓
+Intelligent Diagnosis Generation
+    ↓
+Water-First Recommendations
+    ↓
+Action Plan Output
+    ↓
+User Takes Action
+```
+
+### Security & Privacy
+
+- ✅ AI API keys securely handled server-side
+- ✅ No farmer images permanently stored
+- ✅ Protected edge-function architecture
+- ✅ Future database security using Row-Level Security (RLS)
+- ✅ GDPR-compliant data handling
+
+---
 
 ## 🚀 Installation
 
 ### Prerequisites
-- Node.js (v16 or higher)
-- Python (v3.8 or higher)
-- PostgreSQL or MongoDB
-- Git
 
-### Step 1: Clone the Repository
+- **Node.js** v16 or higher
+- **npm** or **yarn** package manager
+- **Git** version control
+- Modern web browser (Chrome, Firefox, Safari, Edge)
+
+### Quick Start
+
+#### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/Zama-B/AgriSense-AI.git
 cd AgriSense-AI
 ```
 
-### Step 2: Install Dependencies
+#### 2. Install Dependencies
 
-**Frontend:**
 ```bash
-cd frontend
-npm install
-```
-
-**Backend:**
-```bash
-cd backend
 npm install
 # or
-pip install -r requirements.txt
+yarn install
 ```
 
-### Step 3: Configure Environment Variables
+#### 3. Configure Environment Variables
+
 Create a `.env.local` file in the root directory:
+
 ```env
-REACT_APP_API_URL=http://localhost:5000
-DATABASE_URL=postgresql://user:password@localhost:5432/agrisense
-WEATHER_API_KEY=your_api_key_here
-AWS_ACCESS_KEY_ID=your_access_key
-AWS_SECRET_ACCESS_KEY=your_secret_key
+VITE_API_URL=http://localhost:5000
+VITE_GEMINI_API_KEY=your_gemini_api_key_here
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
 
-### Step 4: Start the Application
+#### 4. Start the Development Server
 
-**Frontend:**
 ```bash
-cd frontend
-npm start
-```
-
-**Backend:**
-```bash
-cd backend
-npm start
+npm run dev
 # or
-python app.py
+yarn dev
 ```
 
-Visit `http://localhost:3000` in your browser.
+Visit `http://localhost:5173` in your browser.
+
+### Building for Production
+
+```bash
+npm run build
+npm run preview
+```
+
+---
 
 ## 💻 Usage
 
 ### For Farmers
-1. **Sign Up**: Create an account with your farm location and type
-2. **Set Up Profile**: Input farm details, crop types, and current irrigation methods
-3. **View Dashboard**: Monitor real-time crop health and water usage
-4. **Receive Recommendations**: Get AI-powered suggestions for irrigation, fertilization, and pest management
-5. **Track Progress**: View historical analytics and optimize practices over time
+
+1. **Access the Platform**: Open AgriSense-AI in your web browser
+2. **Upload an Image**: Select a photo of your crop, livestock, soil, or irrigation system
+3. **Get AI Diagnosis**: Receive instant analysis and problem identification
+4. **View Recommendations**: Read water-conscious action plans and guidance
+5. **Access Advisor Chat**: Ask follow-up questions and get contextual advice
+6. **Track Solutions**: Implement recommendations and monitor improvements
 
 ### For Developers
-See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and contribution guidelines.
+
+Clone the repository and follow the [Installation](#-installation) section above.
+
+```bash
+# Development mode with hot reload
+npm run dev
+
+# Build for production
+npm run build
+
+# Run tests (when available)
+npm run test
+```
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for development guidelines and contribution workflow.
+
+---
 
 ## 📁 Project Structure
 
 ```
 AgriSense-AI/
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── styles/
-│   │   └── utils/
-│   └── package.json
-├── backend/
-│   ├── routes/
-│   ├── models/
-│   ├── controllers/
-│   ├── ml/
-│   │   ├── models/
-│   │   └── preprocessing/
-│   └── requirements.txt
-├── docs/
+├── src/
+│   ├── components/          # Reusable React components
+│   ├── pages/               # Route pages
+│   ├── styles/              # Global styles & Tailwind config
+│   ├── utils/               # Helper functions & utilities
+│   ├── services/            # API & external service calls
+│   └── App.tsx              # Root component
+├── public/                  # Static assets
+├── docs/                    # Documentation
 ├── .github/
-│   └── workflows/
-├── docker-compose.yml
-└── README.md
+│   └── workflows/           # CI/CD pipelines
+├── .env.local               # Environment variables (local)
+├── vite.config.ts           # Vite configuration
+├── tailwind.config.ts       # Tailwind CSS configuration
+├── package.json             # Dependencies & scripts
+└── README.md                # This file
 ```
-
-## 🤝 Contributing
-
-We welcome contributions from developers, farmers, and agricultural experts! Please follow these steps:
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
-
-For detailed guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Contact & Support
-
-- **Project Lead**: [Your Name / Organization]
-- **Email**: support@agrisense-ai.com
-- **Website**: [Your website URL]
-- **Issues & Bug Reports**: [GitHub Issues](https://github.com/Zama-B/AgriSense-AI/issues)
 
 ---
 
-### 🌍 Impact
+## 🤝 Contributing
 
-AgriSense-AI is committed to making a positive impact on South African agriculture by:
-- Reducing water consumption and promoting sustainability
-- Increasing crop yields for small-scale and commercial farmers
-- Supporting food security in urban and rural communities
-- Creating opportunities for agricultural innovation and entrepreneurship
+We welcome contributions from developers, agricultural experts, and community members!
 
-**Together, we're growing a more sustainable future. 🌾**
+### How to Contribute
+
+1. **Fork** the repository
+2. **Create** a feature branch
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Make** your changes and test thoroughly
+4. **Commit** with clear, descriptive messages
+   ```bash
+   git commit -m "Add: Brief description of changes"
+   ```
+5. **Push** to your fork
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+6. **Open** a Pull Request with a detailed description
+
+### Contribution Areas
+
+- 🐛 **Bug Fixes**: Report and fix issues
+- ✨ **Features**: Propose and implement new features
+- 📚 **Documentation**: Improve README and docs
+- 🎨 **UI/UX**: Enhance design and usability
+- 🧪 **Testing**: Improve test coverage
+- 🌐 **Localization**: Add language support
+
+For detailed guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+---
+
+## 📈 Future Roadmap
+
+### Phase 2 (Q3 2026)
+
+- [ ] Multi-language support (isiZulu, Sesotho, Xhosa)
+- [ ] Offline Progressive Web App (PWA) capability
+- [ ] WhatsApp integration for SMS-based access
+- [ ] Weather alert system
+- [ ] Soil moisture sensor integration
+
+### Phase 3 (Q4 2026)
+
+- [ ] AI-powered crop forecasting
+- [ ] Agricultural finance & insurance integration
+- [ ] Community forum for farmer knowledge sharing
+- [ ] Regional yield benchmarking
+- [ ] Export recommendations reports
+
+### Phase 4 (2027 & Beyond)
+
+- [ ] Mobile app (iOS/Android) native versions
+- [ ] Drone/satellite imagery integration
+- [ ] Blockchain-based produce tracking
+- [ ] Carbon credit marketplace
+- [ ] Supply chain optimization tools
+
+---
+
+## 👥 Team
+
+AgriSense-AI was proudly created by a dedicated team of innovators:
+
+- **Zizipho Malangeni**
+- **Sibongiseni Magutshwa**
+- **Zama Bhengane** (Project Lead)
+- **Thabang Lesotho**
+- **Lungile P. Nzimande**
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👥 Contact & Support
+
+- **Project Lead**: Zama Bhengane
+- **Email**: support@agrisense-ai.com
+- **GitHub Issues**: [Report Bugs & Request Features](https://github.com/Zama-B/AgriSense-AI/issues)
+- **Discussions**: [Join Community Discussions](https://github.com/Zama-B/AgriSense-AI/discussions)
+
+---
+
+## 🌍 Impact & Vision
+
+AgriSense-AI is committed to making a measurable positive impact on South African agriculture:
+
+### Our Commitment
+
+- 💧 **Reduce water consumption** by 20-30% for early adopters
+- 📈 **Increase crop yields** through better management and diagnostics
+- 🛡️ **Strengthen food security** in urban and rural communities
+- 💼 **Enable agricultural innovation** and entrepreneurship
+- 🌱 **Promote sustainability** across farming practices
+- ♿ **Ensure accessibility** for all farmers regardless of technical expertise
+
+### Vision Statement
+
+> *"To make AI-powered agricultural support accessible to every farmer in South Africa—from township gardens to large-scale commercial operations—while enabling smarter water usage and building more resilient, sustainable food systems."*
+
+---
+
+## 📊 Project Status
+
+- 🚧 **Status**: Active Development
+- 🔄 **Current Version**: v1.1
+- 📱 **Platform**: Mobile-First Web Application
+- 🇿🇦 **Focus**: South African Agriculture
+- 🌍 **Scope**: Expanding to continental agriculture
+
+---
+
+## ⭐ Show Your Support
+
+If AgriSense-AI has helped you or you believe in our mission, please consider:
+
+- ⭐ Starring the repository
+- 🔗 Sharing with other farmers and agricultural professionals
+- 💬 Providing feedback and feature suggestions
+- 🤝 Contributing to the project
+- 📢 Spreading the word about sustainable farming solutions
+
+---
+
+**Together, we're growing a more sustainable, water-conscious agricultural future for South Africa. 🌾**
+
+*Last Updated: May 2026*

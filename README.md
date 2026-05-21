@@ -12,6 +12,7 @@
 - [The Problem](#-the-problem)
 - [Our Solution](#-our-solution)
 - [Core Features](#-core-features)
+- [Screenshots](#-screenshots)
 - [Tech Stack](#-tech-stack)
 - [Architecture](#-architecture)
 - [Installation](#-installation)
@@ -27,9 +28,9 @@
 
 ## 🎯 Overview
 
-**AgriSense-AI** is a free, mobile-first web application designed to revolutionize farming practices across South Africa by combining AI-powered image diagnosis, intelligent agricultural guidance, and water-first recommendations into one accessible platform.
+**AgriSense-AI** is a free, mobile-first web application designed to revolutionize farming practices across South Africa by combining AI-powered image diagnosis, intelligent agricultural guidance, and water-conscious farming solutions.
 
-The platform empowers farmers—from urban smallholders in townships to large-scale commercial operations—with actionable AI insights to diagnose crop and livestock problems, optimize irrigation, and grow more with less while protecting their livelihoods and the environment.
+The platform empowers farmers—from urban smallholders in townships to large-scale commercial operations—with actionable AI insights to diagnose crop and livestock problems, optimize irrigation strategies, and conserve water.
 
 ### Target Users
 
@@ -120,6 +121,36 @@ Optimized for:
 - Smartphone accessibility
 - Fast interactions
 - Responsive design across all devices
+
+---
+
+## 📸 Screenshots
+
+Get a visual walkthrough of AgriSense-AI's interface and features:
+
+### Home Screen & Navigation
+![AgriSense-AI Home Screen](./docs/screenshots/home-screen.png)
+*Main landing page with quick access to AI Photo Diagnosis and Sample Diagnoses*
+
+### AI Photo Diagnosis Interface
+![AI Photo Diagnosis](./docs/screenshots/photo-diagnosis.png)
+*User-friendly image upload interface with camera and gallery options*
+
+### Diagnosis Results
+![Diagnosis Results](./docs/screenshots/diagnosis-results.png)
+*Comprehensive AI-generated diagnosis with water-conscious recommendations*
+
+### AI Advisor Chat
+![AI Advisor Chat](./docs/screenshots/advisor-chat.png)
+*Interactive chatbot providing contextual farming advice and support*
+
+### Sample Diagnoses
+![Sample Diagnoses](./docs/screenshots/sample-diagnoses.png)
+*Pre-loaded examples demonstrating the app's diagnostic capabilities*
+
+### Mobile Responsiveness
+![Mobile View](./docs/screenshots/mobile-view.png)
+*Optimized interface for smartphone access in the field*
 
 ---
 
@@ -263,7 +294,8 @@ AgriSense-AI/
 │   ├── services/            # API & external service calls
 │   └── App.tsx              # Root component
 ├── public/                  # Static assets
-├── docs/                    # Documentation
+├── docs/
+│   └── screenshots/         # Screenshot images for README
 ├── .github/
 │   └── workflows/           # CI/CD pipelines
 ├── .env.local               # Environment variables (local)
@@ -380,7 +412,7 @@ AgriSense-AI is committed to making a measurable positive impact on South Africa
 
 ### Vision Statement
 
-> *"To make AI-powered agricultural support accessible to every farmer in South Africa—from township gardens to large-scale commercial operations—while enabling smarter water usage and building more resilient, sustainable food systems."*
+> *"To make AI-powered agricultural support accessible to every farmer in South Africa—from township gardens to large-scale commercial operations—while enabling smarter water usage and building a more resilient, sustainable agricultural future."*
 
 ---
 

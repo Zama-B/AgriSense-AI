@@ -128,29 +128,21 @@ Optimized for:
 
 Get a visual walkthrough of AgriSense-AI's interface and features:
 
-### Home Screen & Navigation
-![AgriSense-AI Home Screen](https://github.com/Zama-B/AgriSense-AI/blob/main/Screenshot%202026-05-21%20151457.png?raw=true)
+### Landing Page
+![AgriSense-AI Landing Page](https://github.com/Zama-B/AgriSense-AI/blob/main/Screenshot%202026-05-21%20151457.png?raw=true)
 *Main landing page with quick access to AI Photo Diagnosis and Sample Diagnoses*
 
-### AI Photo Diagnosis Interface
-![AI Photo Diagnosis](https://github.com/Zama-B/AgriSense-AI/blob/main/Screenshot%202026-05-21%20151806.png?raw=true)
-*User-friendly image upload interface with camera and gallery options*
+### Diagnosis Interface
+![AI Photo Diagnosis](https://github.com/Zama-B/AgriSense-AI/blob/main/Screenshot%202026-05-21%20151723.png?raw=true)
+*User-friendly image upload interface for crop, livestock, soil, and irrigation diagnosis*
 
-### Diagnosis Results
+### Diagnosis Output
 ![Diagnosis Results](https://github.com/Zama-B/AgriSense-AI/blob/main/Screenshot%202026-05-21%20151919.png?raw=true)
-*Comprehensive AI-generated diagnosis with water-conscious recommendations*
+*Comprehensive AI-generated diagnosis with water-conscious recommendations and action plans*
 
 ### AI Advisor Chat
-![AI Advisor Chat](https://github.com/Zama-B/AgriSense-AI/blob/main/Screenshot%202026-05-21%20151457.png?raw=true)
-*Interactive chatbot providing contextual farming advice and support*
-
-### Sample Diagnoses
-![Sample Diagnoses](https://github.com/Zama-B/AgriSense-AI/blob/main/Screenshot%202026-05-21%20151457.png?raw=true)
-*Pre-loaded examples demonstrating the app's diagnostic capabilities*
-
-### Mobile Responsiveness
-![Mobile View](https://github.com/Zama-B/AgriSense-AI/blob/main/Screenshot%202026-05-21%20151919.png?raw=true)
-*Optimized interface for smartphone access in the field*
+![AI Advisor Chat](https://github.com/Zama-B/AgriSense-AI/blob/main/Screenshot%202026-05-21%20151806.png?raw=true)
+*Interactive chatbot providing contextual farming advice, follow-up questions, and real-time support*
 
 ---
 
